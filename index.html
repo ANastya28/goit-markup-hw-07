@@ -32,7 +32,7 @@
                 </ul>
             </nav>
         
-            <button type="button" class="menu-mobile-open" aria-label="Переключатель мобильного меню" aria-expanded="false" js-open-menu>
+            <button type="button" class="menu-mobile-open js-open-menu" aria-label="Переключатель мобильного меню" aria-expanded="false">
                 <svg class="icon-mobile" width="32px" height="22px">
                     <use href="./images/sprite.svg#icon-menu-hamburger" class="hamburger"></use>
                 </svg>
@@ -45,14 +45,15 @@
                 </ul>
             </address>
              
-            <Div class="mobile-menu" js-menu-container>
+            <Div class="mobile-menu js-menu-container">
                 <div class="container mobile-container">
                     
-                <button type="button" class="mobile-menu-close-icon" js-close-menu>
+                <button type="button" class="mobile-menu-close-icon js-close-menu">
                     <svg class="close-icon-mobile" width="8px" height="8px">
                         <use href="./images/sprite.svg#icon-modal-close"></use>
                     </svg>
                 </button>
+               
                
                 <ul class="nav-menu list">
                     <li class="item"><a href="./index.html" class="site-link link">Studio</a></li>
@@ -528,7 +529,7 @@
                     <input type="checkbox" name="" value="policy" id="policy" class="checkbox-input visually-hidden">
                     <label for="policy" class="label-policy">
                         <span class="icon"></span>
-                        <span>I accept the terms and conditions of the 
+                        <span class="policy-submit">I accept the terms and conditions of the 
                             <a href="" class="link-policy">Privacy Policy</a>
                         </span>
                     </label>
